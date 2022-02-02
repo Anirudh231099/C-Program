@@ -54,18 +54,6 @@ for(i=0;i<3;i++)
         printf("\n");
     }
 
-//for(i=0;i<4;i++)
-    //{
-        //while(fread(&a,sizeof(struct admin),1,fptr))
-        //printf("name =%s\n designation =%s\n",a.emp[i].name,a.emp[i].designation);
-        //fclose(fptr);
-    //}
- //for(i=0;i<3;i++)
-   // {
-        //while(fread(&a,sizeof(struct admin),1,fptr1))
-        //printf("id = %s\n branch =%s\n",a.det[i].id,a.det[i].branch);
-        //fclose(fptr1);
-    //}
  fclose(fptr);
  fclose(fptr1);
  return 0;
